@@ -25,7 +25,7 @@ new_list = get_list_from_file('../newVersion.csv')
 participants = get_participants(old_list, new_list)
 
 for i in participants:
-    send_email(i.email, compose_email(i, participants))
+    send_email(i.email, [p.email for p in participants if p != i][0], compose_email(i, participants))
 
 os.remove('../oldVersion.csv')
 os.rename('../newVersion.csv', '../oldVersion.csv')
