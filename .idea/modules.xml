@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DriveDiffEmailer.iml" filepath="$PROJECT_DIR$/.idea/DriveDiffEmailer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/supahcool-links.iml" filepath="$PROJECT_DIR$/.idea/supahcool-links.iml" />
     </modules>
   </component>
 </project>
-
